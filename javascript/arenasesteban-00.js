@@ -1,6 +1,6 @@
 /* 
     RETOS DE PROGRAMACIÓN - MoureDev
-    EJERCICIO #00 - Sintaxis, variables, tipos de datos y hola mundo
+    RETO #00 - Sintaxis, variables, tipos de datos y hola mundo
     https://retosdeprogramacion.com/roadmap/
     LENGUAJE - JavaScript
 */
