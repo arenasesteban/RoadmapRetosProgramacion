@@ -1,6 +1,7 @@
 /* 
     RETOS DE PROGRAMACIÓN - MoureDev
     EJERCICIO #00 - Sintaxis, variables, tipos de datos y hola mundo
+    https://retosdeprogramacion.com/roadmap/
     LENGUAJE - JavaScript
 */
 
@@ -38,7 +39,6 @@ let boolean = true;             // Valor booleano
 let bigInt = 9007199254740991n  // Big int
 let x = null;                   // Nulo
 let y;                          // Indefinido
-
 
 // [ 5 ] - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
 
