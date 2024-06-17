@@ -1,6 +1,6 @@
 /* 
     RETOS DE PROGRAMACIÓN - MoureDev
-    EJERCICIO #01 - Operadores y estructuras de control
+    RETO #01 - Operadores y estructuras de control
     https://retosdeprogramacion.com/roadmap/
     LENGUAJE - JavaScript
 */
