@@ -75,7 +75,7 @@ let persona = { nombre: "Esteban", edad: 23 };
 parametro(persona); // Éxito: A Esteban se le ha permitido el acceso
 
 persona = { nombre: "Martin", edad: 13 };
-parametro(persona); // Error: Edad de usuario no indicada
+parametro(persona); // Error: Usuario menor de edad
 
 persona = { nombre: "Javiera" };
 parametro(persona); // Error: Edad de usuario no indicada
