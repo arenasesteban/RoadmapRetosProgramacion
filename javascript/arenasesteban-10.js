@@ -57,7 +57,7 @@ function control(persona) {
     } else if(!persona.edad) {
         throw new Error("Edad de usuario no indicada");
     } else {
-        console.log(`[ÉXITO] A ${persona.nombre} se le ha permitido el acceso`);
+        console.log(`Éxito: A ${persona.nombre} se le ha permitido el acceso`);
     }
 }
 
@@ -65,20 +65,20 @@ function parametro(persona) {
     try {
         control(persona);
     } catch(error) {
-        console.log(`[ERROR] ${error}`);
+        console.log(`${error}`);
     } finally {
         console.log("Ha terminado su ejecución\n");
     }
 }
 
 let persona = { nombre: "Esteban", edad: 23 };
-parametro(persona); // [ÉXITO] A Esteban se le ha permitido el acceso
+parametro(persona); // Éxito: A Esteban se le ha permitido el acceso
 
 persona = { nombre: "Martin", edad: 13 };
-parametro(persona); // [ERROR] Error: Usuario menor de edad
+parametro(persona); // Error: Edad de usuario no indicada
 
 persona = { nombre: "Javiera" };
-parametro(persona); // [ERROR] Error: Nombre de usuario no indicado
+parametro(persona); // Error: Edad de usuario no indicada
 
 persona = {};
-parametro(persona); // [ERROR] Error: Nombre de usuario no indicado
+parametro(persona); // Error: Nombre de usuario no indicado
