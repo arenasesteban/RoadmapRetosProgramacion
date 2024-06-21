@@ -5,4 +5,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-module.exports = rl;
+const fs = require('fs');
+
+module.exports = { rl, fs };
