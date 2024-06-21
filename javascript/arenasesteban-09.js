@@ -5,8 +5,6 @@
     LENGUAJE - JavaScript
 */
 
-const { copyFileSync } = require("fs");
-
 /* 
     [ 1 ] - Explora el concepto de herencia según tu lenguaje. Crea un ejemplo que
     implemente una superclase Animal y un par de subclases Perro y Gato,
