@@ -5,8 +5,6 @@
     LENGUAJE - JavaScript
 */
 
-const { CONNREFUSED } = require("dns");
-
 /* 
     [ 1 ] - Explora el concepto de manejo de excepciones según tu lenguaje.
     - Fuerza un error en tu código, captura el error, imprime dicho error y evita que el programa se detenga de manera inesperada.
